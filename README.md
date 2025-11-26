@@ -3,11 +3,13 @@
 <img src="https://img.shields.io/badge/C Language-00599C?style=for-the-badge&logo=c&logoColor=white" />
 <img src="https://img.shields.io/badge/Coded with NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" />
 
-<br /><br />
+<br />
 
+<p align="center"><img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/born2berootn.png?raw=true" /></p>
+<br />
 <p align="center"><b>This repository contains my all projects of 42 cursus.</b></p>
 
-<br /><br />
+<br />
 
 ## 🧩 All projects
 
