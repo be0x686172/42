@@ -16,7 +16,7 @@ $(NAME):
 	$(CC) $(FLAGS) $(MAIN) $(SRC) $(TESTS)
 
 clean:
-	rm -rf $(NAME)
+	rm -f $(NAME)
 
 fclean: clean
 
