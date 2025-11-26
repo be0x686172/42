@@ -1,26 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abehar-r <abderahmane.beharrahala@learner  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/26 18:19:14 by abehar-r          #+#    #+#             */
-/*   Updated: 2025/11/26 21:06:58 by abehar-r         ###   ########.fr       */
+/*   Created: 2025/11/26 20:55:40 by abehar-r          #+#    #+#             */
+/*   Updated: 2025/11/26 21:01:12 by abehar-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "../include/libft.h"
 
-# include <stdio.h>
-# include <stdlib.h>
-# include <unistd.h>
+void	ft_putstr_fd(char *str, int fd)
+{
+	int	i;
 
-void	ft_putchar_fd(char c, int fd);
-void	ft_putchar_fd_test(void);
-
-void	ft_putstr_fd(char *str, int fd);
-void	ft_putstr_fd_test(void);
-
-#endif
+	i = 0;
+	while (str[i])
+	{
+		ft_putchar_fd(str[i], fd);
+		i++;
+	}
+}
