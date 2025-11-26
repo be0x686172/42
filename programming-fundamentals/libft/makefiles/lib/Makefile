@@ -6,7 +6,7 @@ FLAGS = -Wall -Wextra -Werror -I include
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
 
-all: $(NAME) clean
+all: $(NAME) clean clear
 
 $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
@@ -20,6 +20,9 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
+clear:
+	clear
+
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean clear re
