@@ -11,8 +11,6 @@
 
 <br />
 
-
-
 ## Description <br />
 School 42 is a school without teachers that learns through the project-based pedagody and peer-learning. Below, are listed all my projects of the 42 cursus. <br /><br />
 
