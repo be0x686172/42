@@ -1,21 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abehar-r <abderahmane.beharrahala@learner  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/27 13:43:18 by abehar-r          #+#    #+#             */
-/*   Updated: 2025/11/27 14:28:15 by abehar-r         ###   ########.fr       */
+/*   Created: 2025/11/27 14:26:30 by abehar-r          #+#    #+#             */
+/*   Updated: 2025/11/27 14:35:42 by abehar-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
+#include "../include/ft_printf.h"
 
-# include "../libft/include/libft.h"
-# include <stdarg.h>
-
-int	ft_printf(const char *s, ...);
-
-#endif
+int	ft_printf(const char *s, ...)
+{
+	ft_putstr_fd(s, 1);
+	return (0);
+}

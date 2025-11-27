@@ -6,7 +6,7 @@
 /*   By: abehar-r <abderahmane.beharrahala@learner  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/27 13:24:50 by abehar-r          #+#    #+#             */
-/*   Updated: 2025/11/27 14:18:51 by abehar-r         ###   ########.fr       */
+/*   Updated: 2025/11/27 14:29:29 by abehar-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 int	main(void)
 {
-	ft_putchar_fd('S', 1);
+	ft_printf("Lycee Jean Perrin");
 	return (0);
 }
