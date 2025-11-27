@@ -22,5 +22,5 @@ School 42 is a school without teachers that learns through the project-based ped
 
 | Project       | Description | URL project |
 |---------------|-------------|-------------|
-| Libft |  📚 Implementation of common C standard library functions.  | https://github.com/be0x686172/42/tree/main/programming-fundamentals/libft |
+| ➔ Libft |  📚 Implementation of common C standard library functions.  | https://github.com/be0x686172/42/tree/main/programming-fundamentals/libft |
 </details>
