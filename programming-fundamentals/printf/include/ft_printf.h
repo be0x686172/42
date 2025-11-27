@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abehar-r <abderahmane.beharrahala@learner  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/27 13:24:50 by abehar-r          #+#    #+#             */
-/*   Updated: 2025/11/27 14:18:51 by abehar-r         ###   ########.fr       */
+/*   Created: 2025/11/27 13:43:18 by abehar-r          #+#    #+#             */
+/*   Updated: 2025/11/27 14:16:02 by abehar-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "include/ft_printf.h"
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
-int	main(void)
-{
-	ft_putchar_fd('S', 1);
-	return (0);
-}
+# include "../libft/include/libft.h"
+
+#endif
