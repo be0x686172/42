@@ -14,7 +14,7 @@
 
 
 ## Description <br />
-School 42 prioritizes project-based learning, without teacher intervention. It relies on peer learning. Successful completion of the program requires the completion of all projects. All curriculum projects are listed below. <br /><br />
+School 42 is a school without teachers that learns through the project-based pedagody and peer-learning. Below, are listed all my projects of the 42 cursus. <br /><br />
 
 ## My projects by categories <br />
 <details open>
