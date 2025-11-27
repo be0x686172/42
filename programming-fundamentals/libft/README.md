@@ -17,9 +17,9 @@ Libft is a project on 42 School cursus where I have to code libc, the C standard
 | Function | Description | 
 | -------- | ----------- |
 | | |
-| ➔ ft_putchar_fd | write a character in a output |
-| ➔ ft_putstr_fd | write a string in a output |
-| ➔ ft_putnbr_fd | write a int number in a output |
+| ➔ void ft_putchar_fd(char c, int fd) | write a character in a output |
+| ➔ void ft_putstr_fd(char *str, int fd) | write a string in a output |
+| ➔ void ft_putnbr_fd(int nbr, int fd) | write a int number in a output |
 | | |
 
 <br />
