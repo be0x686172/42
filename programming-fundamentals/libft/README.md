@@ -27,10 +27,10 @@ Libft is a project on 42 School cursus where I have to code libc, the C standard
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/be0x686172/libft/
+git clone https://github.com/be0x686172/42.git
 
 # Enter in repository
-cd libft
+cd 42/programming-fundamentals/libft
 
 # Compile the executable file and run it directly
 make -f makefiles/exe/Makefile
