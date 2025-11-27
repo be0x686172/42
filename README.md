@@ -11,10 +11,10 @@
 
 <br />
 
-## Description <br />
+## Description
 School 42 is a school without teachers that learns through the project-based pedagody and peer-learning. Below, are listed all my projects of the 42 cursus. <br /><br />
 
-## My projects by categories <br />
+## My projects by categories
 <details open>
 <summary><b>Programming fundamentals</b></summary>
 
