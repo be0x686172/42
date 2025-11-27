@@ -11,11 +11,18 @@
 
 <br />
 
-## 🧩 All projects
 
-<h4 align="left"><b>Programming fundamentals</b></h4>
 
-| Name project | Description | Project with tests included (not accepted by the Moulinette) |
-|--------------|-------------|--------------------------------------------------------------|
-| 📚 Libft     | Implementation of standard C library functions | [https://github.com/be0x686172/42/tree/main/programming-fundamentals/libft](https://github.com/be0x686172/42/tree/main/programming-fundamentals/libft) |
-| 🖨️ Printf     | Implementation of the C standard printf function | [https://github.com/be0x686172/42/tree/main/programming-fundamentals/printf](https://github.com/be0x686172/42/tree/main/programming-fundamentals/printf) |
+## Description <br />
+School 42 prioritizes project-based learning, without teacher intervention. It relies on peer learning. Successful completion of the program requires the completion of all projects. All curriculum projects are listed below. <br /><br />
+
+## My projects by categories <br />
+<details open>
+<summary><b>Programming fundamentals</b></summary>
+
+<br>
+
+| Project       | Description | URL project |
+|---------------|-------------|-------------|
+| Libft |  📚 Implementation of common C standard library functions.  | https://github.com/be0x686172/42/tree/main/programming-fundamentals/libft |
+</details>
