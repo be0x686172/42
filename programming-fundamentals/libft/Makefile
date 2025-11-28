@@ -2,18 +2,22 @@ NAME = a.out
 
 CC = cc
 FLAGS = -Wall -Werror -Wextra -I include
+INCLUDES = -I include -I libft/include
+LIBFT = libft/
 
 MAIN = main.c
-SRC = $(wildcard src/*.c)
 TESTS = $(wildcard tests/*.c)
 
-all: run
+all: create_libft_library $(NAME) run
 
-run: $(NAME)
+run:
 	./$(NAME) && rm $(NAME)
 
 $(NAME):
-	$(CC) $(FLAGS) $(MAIN) $(SRC) $(TESTS)
+	$(CC) $(FLAGS) $(INCLUDES) -L $(LIBFT) $(MAIN) $(TESTS) -lft
+
+create_libft_library:
+	make -C $(LIBFT)
 
 clean:
 	rm -f $(NAME)

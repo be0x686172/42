@@ -10,20 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#ifndef LIBFT_TESTER_H
+# define LIBFT_TESTER_H
 
+# include "../libft/include/libft.h"
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
 
-void	ft_putchar_fd(char c, int fd);
 void	ft_putchar_fd_test(void);
-
-void	ft_putstr_fd(char *str, int fd);
 void	ft_putstr_fd_test(void);
-
-void	ft_putnbr_fd(int nbr, int fd);
 void	ft_putnbr_fd_test(void);
 
 #endif

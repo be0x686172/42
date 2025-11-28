@@ -1,3 +1,6 @@
 [submodule "programming-fundamentals/printf/libft"]
 	path = programming-fundamentals/printf/libft
 	url = git@github.com:be0x686172/libft.git
+[submodule "programming-fundamentals/libft/libft"]
+	path = programming-fundamentals/libft/libft
+	url = git@github.com:be0x686172/libft.git
