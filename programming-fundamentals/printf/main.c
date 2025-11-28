@@ -14,6 +14,19 @@
 
 int	main(void)
 {
-	ft_printf("Lycee Jean Perrin");
+	system("clear");
+
+	#include <stdio.h>
+
+    printf("█████▄ █████▄  ██ ███  ██ ██████ ██████");
+    printf("\n██▄▄█▀ ██▄▄██▄ ██ ██ ▀▄██ ██▄▄     ██");
+    printf("\n██     ██   ██ ██ ██   ██ ██       ██");
+	printf("\n\nby Abderahmane Behar Rahala alias be0x686172.");
+
+	printf("\n\n| ＳＴＡＲＴ  ＯＦ  ＴＥＳＴＩＮＧ |\n");
+
+	printf("\n\n| ＥＮＤ  ＯＦ  ＴＥＳＴＩＮＧ |");
+
+	printf("\n\n");
 	return (0);
 }
