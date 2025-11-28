@@ -14,6 +14,6 @@ create_libftprintf_library:
 	make -C printf/
 
 run:
-	clear && ./$(NAME) && rm a.out
+	clear && ./$(NAME) && rm a.out && rm printf/libftprintf.a
 
 .PHONY: all fclean create_libftprintf_library run
