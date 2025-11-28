@@ -16,8 +16,6 @@ int	main(void)
 {
 	system("clear");
 
-	#include <stdio.h>
-
     printf("█████▄ █████▄  ██ ███  ██ ██████ ██████");
     printf("\n██▄▄█▀ ██▄▄██▄ ██ ██ ▀▄██ ██▄▄     ██");
     printf("\n██     ██   ██ ██ ██   ██ ██       ██");
