@@ -9,7 +9,7 @@ LIBFT_LIBRARY = libft.a
 MAIN = main.c
 TESTS = $(wildcard tests/*.c)
 
-all: create_libft_library $(NAME) run
+all: create_libft_library $(NAME) delete_libft_library run
 
 run:
 	./$(NAME) && rm $(NAME)
@@ -20,6 +20,9 @@ $(NAME):
 create_libft_library:
 	make -C $(LIBFT)
 
+delete_libft_library:
+	make -C $(LIBFT) fclean
+
 clean:
 	rm -f $(NAME)
 
@@ -27,4 +30,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all run clean fclean re
+.PHONY: all run clean fclean re create_libft_library delete_libft_library
