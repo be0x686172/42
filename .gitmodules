@@ -4,9 +4,6 @@
 [submodule "programming-fundamentals/libft/libft"]
 	path = programming-fundamentals/libft/libft
 	url = git@github.com:be0x686172/libft.git
-[submodule "programming-fundamentals/printf/--recursive"]
-	path = programming-fundamentals/printf/--recursive
-	url = git@github.com:be0x686172/printf.git
 [submodule "programming-fundamentals/printf/printf"]
 	path = programming-fundamentals/printf/printf
 	url = git@github.com:be0x686172/printf.git
