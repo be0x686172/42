@@ -14,6 +14,6 @@
 
 int	main(void)
 {
-	ft_printf("Hello, World !");
+	ft_printf("Mon nom commence par: %c", 'B');
 	return (0);
 }
