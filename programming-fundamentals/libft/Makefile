@@ -9,13 +9,16 @@ LIBFT_LIBRARY = libft.a
 MAIN = main.c
 TESTS = $(wildcard tests/*.c)
 
-all: create_libft_library $(NAME) delete_libft_library run
+all: init_submodule create_libft_library $(NAME) delete_libft_library run
 
 run:
 	./$(NAME) && rm $(NAME)
 
 $(NAME):
 	$(CC) $(FLAGS) $(INCLUDES) $(MAIN) $(TESTS) $(LIBFT)/$(LIBFT_LIBRARY)
+
+init_submodule:
+	git submodule update --init --recursive
 
 create_libft_library:
 	make -C $(LIBFT)
@@ -30,4 +33,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all run clean fclean re create_libft_library delete_libft_library
+.PHONY: all run clean fclean re init_submodule create_libft_library delete_libft_library
