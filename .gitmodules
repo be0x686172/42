@@ -1,0 +1,3 @@
+[submodule "programming-fundamentals/libft/libft"]
+	path = programming-fundamentals/libft/libft
+	url = https://github.com/be0x686172/libft.git
