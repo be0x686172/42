@@ -7,7 +7,7 @@
 
 <p align="center"><img src="https://github.com/mcombeau/mcombeau/blob/main/42_badges/libftn.png?raw=true" /></p>
 <br />
-<p align="center"><b>This repository contains my libft project of 42 cursus. <br /> It's give you a static library 'libft.a' or an executable file 'a.out' depending on the given makefile.</b></p>
+<p align="center"><b>This repository contains my libft project of 42 cursus. <br /> It's give you an executable file 'a.out'.</b></p>
 
 <br />
 
@@ -17,10 +17,10 @@ Libft is a project on 42 School cursus where I have to code libc, the C standard
 | Function | Description | 
 | -------- | ----------- |
 | | |
-| ➔ void ft_putchar_fd(char c, int fd) | write a character in a output |
-| ➔ void ft_putstr_fd(char *str, int fd) | write a string in a output |
-| ➔ void ft_putnbr_fd(int nbr, int fd) | write a int number in a output |
-| | |
+| ➔ void ft_putchar_fd(char c, int fd) | write a character in a file descriptor |
+| ➔ void ft_putstr_fd(char *str, int fd) | write a string in a file descriptor |
+| ➔ void ft_putnbr_fd(int nbr, int fd) | write a int number in a file descriptor |
+| ➔ size_t ft_strlen(const char *s) | count the length of a string |
 
 <br />
 
@@ -33,8 +33,5 @@ git clone https://github.com/be0x686172/42.git
 cd 42/programming-fundamentals/libft
 
 # Compile the executable file and run it directly
-make -f makefiles/exe/Makefile
-
-# Compile the static library
-make -f makefiles/lib/Makefile
-``
+make
+```
