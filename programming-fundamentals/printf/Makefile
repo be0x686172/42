@@ -11,6 +11,7 @@ $(NAME):
 	$(CC) $(FLAGS) $(INCLUDES) main.c $(LIBFTPRINTF_LIBRARY)
 
 create_libftprintf_library:
+	git submodule update --init --recursive
 	make -C printf/
 
 run:
