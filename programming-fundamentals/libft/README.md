@@ -21,6 +21,7 @@ Libft is a project on 42 School cursus where I have to code libc, the C standard
 | ➔ void ft_putstr_fd(char *str, int fd) | write a string in a file descriptor |
 | ➔ void ft_putnbr_fd(int nbr, int fd) | write a int number in a file descriptor |
 | ➔ size_t ft_strlen(const char *s) | count the length of a string |
+| | |
 
 <br />
 
