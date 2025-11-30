@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft_tester.h"
+#include "../include/libft.h"
 
 void	ft_putchar_fd_test(void)
 {

@@ -1,24 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen_test.c                                   :+:      :+:    :+:   */
+/*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abehar-r <abderahmane.beharrahala@learner  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/28 13:42:25 by abehar-r          #+#    #+#             */
-/*   Updated: 2025/11/28 13:46:55 by abehar-r         ###   ########.fr       */
+/*   Created: 2025/11/26 18:19:14 by abehar-r          #+#    #+#             */
+/*   Updated: 2025/11/26 21:15:56 by abehar-r         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/libft_tester.h"
+#ifndef LIBFT_H
+# define LIBFT_H
 
-void	ft_strlen_test(void)
-{
-	ft_putstr_fd("\n - ft_strlen(): ", 1);
-	char	*str;
-	size_t	len;
+# include <stdio.h>
+# include <stdlib.h>
+# include <unistd.h>
 
-	str = "Jean Perrin High School";
-	len = ft_strlen(str);
-	ft_putnbr_fd((int)len, 1);
-}
+void	ft_putchar_fd(char c, int fd);
+void	ft_putchar_fd_test(void);
+
+void	ft_putstr_fd(char *str, int fd);
+void	ft_putstr_fd_test(void);
+
+void	ft_putnbr_fd(int nbr, int fd);
+void	ft_putnbr_fd_test(void);
+
+#endif

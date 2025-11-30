@@ -1,0 +1,6 @@
+a.out
+
+libft.h.*
+
+*.o
+*.a
